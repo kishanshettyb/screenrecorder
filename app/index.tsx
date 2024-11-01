@@ -34,8 +34,8 @@ export default function Screen() {
     setProgress(Math.floor(Math.random() * 100));
   }
   return (
-    <View className="flex-1 justify-center items-center gap-5 p-6 bg-secondary/30">
-      <Text>Hello</Text>
+    <View className="flex-1 justify-center items-center gap-5 p-6 bg-zink-900">
+      <Text className="dark:text-green-500">Hello</Text>
     </View>
   );
 }

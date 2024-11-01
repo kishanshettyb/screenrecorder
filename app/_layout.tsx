@@ -11,6 +11,7 @@ import { useColorScheme } from "~/lib/useColorScheme";
 import { PortalHost } from "@rn-primitives/portal";
 import { ThemeToggle } from "~/components/ThemeToggle";
 import { setAndroidNavigationBar } from "~/lib/android-navigation-bar";
+import Logo from "~/components/Logo";
 
 const LIGHT_THEME: Theme = {
   dark: false,
@@ -71,6 +72,7 @@ export default function RootLayout() {
           name="index"
           options={{
             title: "Screen Recorder",
+            headerLeft: () => <Logo />,
             headerRight: () => <ThemeToggle />,
           }}
         />
