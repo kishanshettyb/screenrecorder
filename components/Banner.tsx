@@ -8,7 +8,7 @@ const Banner: FunctionComponent = () => {
       <View className="shadow-2xl  mr-2 flex-1 h-[190px]  border   border-slate-50 p-4 bg-neutral-950  rounded-2xl">
         <View className="bg-neutral-950 border  border-slate-50 w-full text-center flex justify-between h-full flex-1 items-center p-2 rounded-2xl">
           <Text>📂 Storage</Text>
-          <View className="h-[70px] w-[70px] mt-3 rounded-full bg-neutral-950 border border-neutral-500"></View>
+          <View className="h-[70px] w-[70px] mt-3 rounded-full bg-neutral-950 border-2 border-green-500"></View>
           <Text className="font-semibold text-neutral-500">120.15/125</Text>
         </View>
       </View>
