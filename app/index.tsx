@@ -19,7 +19,7 @@ export default function Screen() {
     setProgress(Math.floor(Math.random() * 100));
   }
   return (
-    <ScrollView className="p-6 bg-zink-900">
+    <ScrollView className="p-6 bg-slate-50 dark:bg-neutral-950">
       <WelcomeTitle />
       <Banner />
       <VideoListCard />
