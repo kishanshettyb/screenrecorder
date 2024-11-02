@@ -9,9 +9,9 @@ import { Platform } from "react-native";
 import { NAV_THEME } from "~/lib/constants";
 import { useColorScheme } from "~/lib/useColorScheme";
 import { PortalHost } from "@rn-primitives/portal";
-import { ThemeToggle } from "~/components/ThemeToggle";
 import { setAndroidNavigationBar } from "~/lib/android-navigation-bar";
 import Logo from "~/components/Logo";
+import { ThemeToggle } from "~/components/ThemeToggle";
 
 const LIGHT_THEME: Theme = {
   dark: false,
@@ -67,7 +67,7 @@ export default function RootLayout() {
   return (
     <ThemeProvider value={isDarkColorScheme ? DARK_THEME : LIGHT_THEME}>
       <StatusBar style={isDarkColorScheme ? "light" : "dark"} />
-      <Stack>
+      {/* <Stack>
         <Stack.Screen
           name="index"
           options={{
@@ -75,6 +75,14 @@ export default function RootLayout() {
             headerLeft: () => <Logo />,
             headerRight: () => <ThemeToggle />,
             headerShadowVisible: false,
+          }}
+        />
+      </Stack> */}
+      <Stack>
+        <Stack.Screen
+          name="(tabs)"
+          options={{
+            headerShown: false,
           }}
         />
       </Stack>
