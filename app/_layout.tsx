@@ -74,6 +74,7 @@ export default function RootLayout() {
             title: "Screen Recorder",
             headerLeft: () => <Logo />,
             headerRight: () => <ThemeToggle />,
+            headerShadowVisible: false,
           }}
         />
       </Stack>
