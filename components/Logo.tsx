@@ -1,9 +1,9 @@
 import React, { FunctionComponent } from "react";
-import { Image, View } from "react-native";
+import { Image, Text, View } from "react-native";
 
 const Logo: FunctionComponent = () => {
   return (
-    <View className="flex justify-startitems-center">
+    <View className="flex justify-start flex-row items-center px-6">
       <Image
         height={100}
         width={100}
@@ -11,6 +11,9 @@ const Logo: FunctionComponent = () => {
         className="w-[30px] h-[30px] rounded-lg mr-2 shadow-2xl border border-slate-100"
         source={require("../assets/images/logo-icon.png")}
       />
+      <Text className="font-bold text-lg text-neutral-950 dark:text-neutral-50">
+        Screen Recorder
+      </Text>
     </View>
   );
 };

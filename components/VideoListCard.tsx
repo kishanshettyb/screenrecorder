@@ -1,13 +1,13 @@
 import React, { FunctionComponent } from "react";
 import { Image, Text, View } from "react-native";
 import Feather from "@expo/vector-icons/Feather";
-
-import { colorScheme, useColorScheme } from "nativewind";
+import { useColorScheme } from "nativewind";
 
 const VideoListCard: FunctionComponent = () => {
   const { colorScheme } = useColorScheme();
+
   return (
-    <View>
+    <View className="mb-40">
       <View className="flex justify-between items-center flex-row my-5">
         <View>
           <Text className="text-2xl text-neutral-900 dark:text-neutral-300  font-semibold">
