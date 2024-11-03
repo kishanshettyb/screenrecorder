@@ -24,12 +24,15 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "expo": "^51.0.24",
+    "expo-constants": "~16.0.2",
+    "expo-dev-client": "~4.0.28",
     "expo-linking": "~6.3.1",
     "expo-navigation-bar": "~3.0.7",
     "expo-router": "~3.5.23",
     "expo-splash-screen": "~0.27.5",
     "expo-status-bar": "~1.12.1",
     "expo-system-ui": "~3.0.7",
+    "expo-video": "^1.2.7",
     "lucide-react-native": "^0.378.0",
     "nativewind": "^4.0.33",
     "react": "18.2.0",
@@ -44,7 +47,7 @@
     "tailwindcss": "3.3.5",
     "tailwindcss-animate": "^1.0.7",
     "zustand": "^4.4.7",
-    "expo-constants": "~16.0.2"
+    "expo-av": "~14.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
