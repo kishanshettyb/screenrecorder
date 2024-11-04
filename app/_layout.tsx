@@ -92,6 +92,26 @@ export default function RootLayout() {
             headerBackButtonMenuEnabled: true,
           }}
         />
+        <Stack.Screen
+          name="(screens)/recorder"
+          options={{
+            headerShown: true,
+            title: "Recorder",
+            headerShadowVisible: false,
+            headerTransparent: true,
+            headerStyle: {
+              backgroundColor: "transparent",
+              shadowColor: "transparent",
+            },
+            headerTitleAlign: "center",
+            headerTitleStyle: {
+              color: "#fff",
+            },
+            headerTintColor: "#fff",
+            headerBackTitleVisible: false,
+            headerBackButtonMenuEnabled: true,
+          }}
+        />
       </Stack>
 
       <PortalHost />
